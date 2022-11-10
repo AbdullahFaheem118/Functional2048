@@ -1,0 +1,90 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: #44525f;
+    color: black;
+}
+
+hr {
+    width: 500px;
+    color: black;
+}
+
+#board {
+    width: 440px;
+    height: 440px;
+
+    background-color: #323e4a;
+    border: 6px solid #44525f;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #44525f;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x2 {
+    background-color: #111b25;
+    color: #b6b6b6;
+}
+
+.x4 {
+    background-color: #131f35;
+    color: #b6b6b6;
+}
+
+.x8 {
+    background-color: #0b4e85;
+    color: black;
+}
+
+.x16 {
+    background-color: #0a6a8a;
+    color: black;
+}
+
+.x32 {
+    background-color: #0a83a0;
+    color: black;
+}
+
+.x64 {
+    background-color: #09a2c4;
+    color: black;
+}
+
+.x128 {
+    background-color: #12318e;
+    color: black;
+}
+
+.x256 {
+    background-color: #12339c;
+    color: black;
+}
+
+.x512 {
+    background-color: #1239ae;
+    color: black;
+}
+
+.x1024 {
+    background-color: #1138bb;
+    color: black;
+}
+
+.x2048 {
+    background-color: #133dcf;
+    color: black;
+}
